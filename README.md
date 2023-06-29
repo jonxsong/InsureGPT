@@ -24,7 +24,7 @@ The price of using this powerful model is measured per 1000 tokens. We can think
 The paragraph above is precisely 35 tokens.
 
 
-## Usage
+## Example Usage
 
 - User will input a prompt.
     - "You: Hey how are you doing?"
@@ -35,7 +35,7 @@ The paragraph above is precisely 35 tokens.
 ![Alt text](https://imgur.com/a6JoPyY.jpeg)
 
 
-## Next steps:
+## Next Steps:
 
 - Collect Insurance Data:
     - policy documents
@@ -71,7 +71,7 @@ The paragraph above is precisely 35 tokens.
 - Testing and Deployment
 
 
-## How to run:
+## How to Run Locally:
 
      git clone https://github.com/jonxsong/InsureGPT.git
      cd InsureGPT
