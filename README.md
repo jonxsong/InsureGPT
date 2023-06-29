@@ -2,18 +2,18 @@
 
 ## High-Level Objective
 
-I've been tasked to create an intersection between artificial intelligence and the insurance industry. Our first step is to create a functional UI for our Chatbot project. We can leverage the Python Flask framework to create a functional backend server to run our Chatbot. With Flask, it is seamless to incorporate a prototype frontend which we can worry about once the backend is cemented. 
+We've been tasked to create an intersection between artificial intelligence and the insurance industry. Our first step is to create a functional UI for our Chatbot project. We can leverage the Python [Flask](https://flask.palletsprojects.com/en/2.3.x/) framework to create a functional backend server to run our Chatbot. With Flask, it is seamless to incorporate a prototype frontend which we can worry about once the backend is cemented. 
 
-Moving forward, our primary goal will be to work with AI. While I don't have the insurance data (yet) necessary to train my own large language model (LLM), OpenAI has made it easy for developers like me to play around and experiment with their API. 
+Moving forward, our primary goal will be to work with AI. While we don't have the insurance data (yet) necessary to train our own large language model (LLM), [OpenAI](https://openai.com/) has made it easy for developers to play around and experiment with their API. 
 
 ## Mission Statement
 
-We want to create our own LLM trained with insurance data. We want this LLM to be wrapped by LangChain with the end goal of providing users a document containing high-level requirements pertaining to their use case.
+We want to create our own LLM trained with insurance data. We want this LLM to be wrapped by [LangChain](https://python.langchain.com/docs/get_started/introduction.html) with the end goal of providing users a document containing high-level requirements pertaining to their use case.
 
 
 ## Choosing an LLM
 
-For our initial experimentations, I decided to use OpenAI's ChatGPT API, specifically using the gpt-3.5-turbo model, which was ChatGPT's primary LLM used for their initial product released on https://chat.openai.com/. 
+For our initial experimentations, we decided to use OpenAI's ChatGPT API, specifically using the gpt-3.5-turbo model, which was ChatGPT's primary LLM used for their initial product released on https://chat.openai.com/. 
 
 ## LLM Pricing
 
@@ -68,7 +68,10 @@ The paragraph above is precisely 35 tokens.
         - adjust hyperparameters as we go
         - introduce higher-quality data
 - LangChain Integration
+    - refer to this tutorial
+        - https://www.freecodecamp.org/news/langchain-how-to-create-custom-knowledge-chatbots/
 - Testing and Deployment
+
 
 
 ## How to Run Locally:
