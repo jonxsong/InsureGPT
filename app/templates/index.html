@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InsureGPT Demo</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h1>InsureGPT</h1>
+      <p>Ask me some questions!</p>
+    </div>
+    <ul class="chat-messages"></ul>
+    <div class="chat-input">
+      <input type="text" id="user-message" placeholder="Type your message here..." />
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
