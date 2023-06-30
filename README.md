@@ -77,6 +77,7 @@ The paragraph above is precisely 35 tokens.
 ## How to Run Locally:
 
 Clone the public GitHub repository:
+
      git clone https://github.com/jonxsong/InsureGPT.git
      cd InsureGPT
      cd app
@@ -84,20 +85,25 @@ Clone the public GitHub repository:
 Amend the .env file and add your own openai API token (attained from https://openai.com/api/)
 
 Create a virtual environment (optional but recommended) using the following command:
+
      python -m venv env
 
 Activate the virtual environment. The command for activation varies depending on your operating system:
 
-- On Windows:
+On Windows:
+
      env\Scripts\activate
 
-- On macOS/Linux:
+On macOS/Linux:
+
      source env/bin/activate
 
 Install the project's dependencies by running the following command:
+
      pip install -r requirements.txt
 
 Run the app:
+
      python app.py
 
 Deployed on localhost so navigate to http://127.0.0.1:5000/
